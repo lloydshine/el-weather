@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+}
+
+.navbar img {
+  width: 5rem;
+}
+
+.navbar .nav-actions button {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 30rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
