@@ -1,0 +1,17 @@
+.hero {
+  height: 70vh;
+  color: rgb(206, 206, 206);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.hero .city {
+  font-size: 8rem;
+}
+
+.hero .temp {
+  font-size: 5rem;
+}

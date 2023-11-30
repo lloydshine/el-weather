@@ -1,0 +1,12 @@
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem;
+  flex-wrap: wrap;
+  height: 30vh;
+}
+
+.details .info {
+  text-align: center;
+}

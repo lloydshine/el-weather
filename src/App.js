@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import axios from "axios";
 
+import { Details, Hero } from "./components";
+
 // Iligan City Longitude and Latitude
 const longitude = "124.2434";
 const latitude = "8.2289";
@@ -26,16 +28,8 @@ function App() {
 
   return (
     <div className="App">
-      <p>{weather.time}</p>
-      <h1>Iligan City Weather Forecast</h1>
-      <p>
-        Longitude: {longitude}, Latitude: {latitude}
-      </p>
-      <p>Temperature: {weather.temperature_2m}</p>
-      <p>Humidity: {weather.relative_humidity_2m}</p>
-      <p>Precipitation: {weather.precipitation}</p>
-      <p>Wind Speed: {weather.wind_speed_10m}</p>
-      <p>Surface Pressure: {weather.surface_pressure}</p>
+      <Hero weather={weather} />
+      <Details weather={weather} />
     </div>
   );
 }
