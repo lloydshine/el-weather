@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import axios from "axios";
 
-import { Details, Hero, Navbar } from "./components";
+import { Details, Hero, Navbar, Search } from "./components";
 
 // Iligan City Longitude and Latitude
 const longitude = "124.2434";
@@ -31,6 +31,7 @@ function App() {
       <Navbar />
       <Hero weather={weather} />
       <Details weather={weather} />
+      <Search />
     </div>
   );
 }
