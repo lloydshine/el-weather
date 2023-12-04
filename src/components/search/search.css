@@ -1,0 +1,30 @@
+.search .results {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.search .bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.search .bar input {
+  padding: 0.8rem 1.3rem;
+  border-radius: 10px;
+  border: none;
+  width: 10rem;
+}
+
+.result {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.result:hover {
+  color: black;
+}

@@ -19,3 +19,9 @@
   margin: 0 0.5rem;
   cursor: pointer;
 }
+
+@media screen and (max-width: 490px) {
+  .nav-actions {
+    display: none;
+  }
+}
