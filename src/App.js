@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-import { Details, Hero, Navbar, SearchBar } from "./components";
+import { Details, Hero, Navbar } from "./components";
 import "./App.css";
 
 function App() {
